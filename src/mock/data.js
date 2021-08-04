@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'profile.png',
   paragraphOne: `My name is Charlie. I'm a software engineer, audio engineer and soon to be father.`,
   paragraphTwo: 'See About.jsx line 44',
-  paragraphThree: `I'm passionate about connecting with like minded individuals to build comunities centered around creating awesome projects! My interests include exploring my creativity through music, video and programming.  Let's connect and create something awesome!`,
+  paragraphThree: `I'm passionate about connecting with like minded individuals to build communities centered around creating awesome projects! My interests include exploring my creativity through music, video and programming.  Let's connect and create something awesome!`,
   resume: 'https://drive.google.com/file/d/1-5j5DRy8BJ7AKj1_JOnzoj02yxjax0p4/view?usp=sharing', // if no resume, the button will not show up
 };
 
