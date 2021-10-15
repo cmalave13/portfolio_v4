@@ -42,18 +42,18 @@ const About = () => {
                     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                 </p>
                 <p className="about-wrapper__info-text">
+                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                </p>
+                <p className="about-wrapper__info-text">
                   I am also a podcast host on
                   <a href="https://anchor.fm/javaunscripted" target="_blank" rel="noreferrer">
                     {' '}
                     JavaUnscripted,{' '}
                   </a>
-                  which explores the journey of software development. Working on various projects
-                  over the years has allowed me to become a jack of all trades while working in
-                  multiple industries.
+                  which explores the journey of software development through multiple perspectives,
+                  backgrounds and experiences.
                 </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
+
                 {resume && (
                   <span className="d-flex mt-3">
                     <a

@@ -10,9 +10,9 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'Charlie',
-  subtitle: "I'm a Full-stack Software Engineer",
-  cta: '',
+  name: 'Charlie!',
+  subtitle: "I'm a Software Engineer",
+  cta: 'More Info',
 };
 
 // ABOUT DATA
@@ -20,12 +20,22 @@ export const aboutData = {
   img: 'profile.png',
   paragraphOne: `My name is Charlie. I'm a software engineer, audio engineer and soon to be father.`,
   paragraphTwo: 'See About.jsx line 44',
-  paragraphThree: `I'm passionate about connecting with like minded individuals to build communities centered around creating awesome projects! My interests include exploring my creativity through music, video and programming.  Let's connect and create something awesome!`,
-  resume: 'https://drive.google.com/file/d/1-5j5DRy8BJ7AKj1_JOnzoj02yxjax0p4/view?usp=sharing', // if no resume, the button will not show up
+  // paragraphThree: `I'm passionate about connecting with like minded individuals to build communities centered around creating awesome projects! My interests include exploring my creativity through music, video and programming.  Let's connect and create something awesome!`,
+  paragraphThree: `I'm experienced in building elegant user-facing applications while leveraging multiple tech stacks, leading SCRUM practices, and honoring essential UX/UI design principles. As a musician and creative, I've had my hand in multiple projects that have enabled me to become a jack of all trades while working in multiple industries. Let's connect and create something awesome.`,
+  resume: 'https://drive.google.com/file/d/1JXSdRWfmC7B4via1FW21qOcDNMDk2P2P/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'image5.png',
+    title: 'RediQLess',
+    info: `One part Redis, one part GraphQL, this is RediQLess - a caching tool for APIs in the form of a lightweight NPM Package. Utilizing GraphQL’s efficient and elegant querying language and Redis’ lightweight caching, we've leveraged these two features to generate a cache of API results. Built for developers, by developers, to facilitate lightweight and performant applications.`,
+    info2: `Leveraging GraphQL’s declarative query language and strongly typed API with Redis’ inimitable caching mechanism, RediQLess caches unique calls to third-party APIs for ultimate comportability and maximum reusability. RediQLess’ cache functions as a replacement for the API, which can be memory-intensive on the client and server side.`,
+    url: 'https://www.rediqless.com/',
+    repo: 'https://github.com/oslabs-beta/rediQLess', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'image1.png',
@@ -52,6 +62,16 @@ export const projectsData = [
     info2: '',
     url: '',
     repo: 'https://github.com/cmalave13/trakr', // if no repo, the button will not show up
+  },
+];
+// PROJECTS DATA
+export const podcastData = [
+  {
+    id: nanoid(),
+    img: 'java.jpeg',
+    title: 'JavaUnscripted',
+    info: `A podcast that talks about the journey we take to learn to code, to become proficient, and the challenges we face. Not strictly a podcast about tech but also about our life experiences and the experiences of our guests.`,
+    url: 'https://anchor.fm/javaunscripted',
   },
 ];
 
