@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.png',
-  paragraphOne: `My name is Charlie. I'm a software engineer, audio engineer and soon to be father.`,
+  paragraphOne: `My name is Charlie. I'm a software engineer, audio engineer and new father.`,
   paragraphTwo: 'See About.jsx line 44',
   // paragraphThree: `I'm passionate about connecting with like minded individuals to build communities centered around creating awesome projects! My interests include exploring my creativity through music, video and programming.  Let's connect and create something awesome!`,
   paragraphThree: `I'm experienced in building elegant user-facing applications while leveraging multiple tech stacks, leading SCRUM practices, and honoring essential UX/UI design principles. As a musician and creative, I've had my hand in multiple projects that have enabled me to become a jack of all trades while working in multiple industries. Let's connect and create something awesome.`,
